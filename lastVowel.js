@@ -8,7 +8,7 @@ function lastVowel(str) {
 }
 
 function isVowel(word) {
-  let vowels = "aeiou";
+  let vowels = "aeiouAEIOU";
   for (i = 0; i < word.length; i++) {
     char = word[i];
     if (vowels.includes(char)) {
